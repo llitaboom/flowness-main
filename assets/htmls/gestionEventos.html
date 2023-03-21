@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowness - Gestion de Eventos</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/dfb67970ee.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logoProvisional">FLOWNESS</a>
+    </header>
+    <section>
+        <div id="organizadorMenuAdmin">
+            <div class="cabeceraMenuAdmin">
+                <img src="" alt="" id="fotoUsuario">
+                <div id="panelAdmin">Panel de Administración</div>
+            </div>
+            <div id="tituloEventos">
+                Eventos
+                <select name="categoria" id="">
+                    <option value="" selected>Categoria</option>
+                    <option value="ocioNocturno">Ocio Nocturno</option>
+                    <option value="deportes">Deportes</option>
+                    <option value="restauracion">Restauración</option>
+                    <option value="cultura">Cultura</option>
+                    <!-- Pintarlos por peticion a Spring-->
+                </select>
+            </div>
+            <div id="pintarEventos">
+                <!-- Pintarlos por peticion a Spring-->
+                <div class="eventoAmdin">
+                    <div id="fotoAdmin">
+                        <img src="" alt="">
+                    </div>
+                    <div id="infoEvento">
+                        <div>Nombre Evento</div>
+                        <div>Fecha Evento</div>
+                    </div>
+                    <div>
+                        Eliminar
+                    </div>
+                </div>
+            </div>
+            <div id="addEvento">Añadir Evento</div>
+        </div>
+    </section>
+    <nav>
+        <div id="volverAMenu">Salir de Administración</div>
+        <a href="logIn.html"><div class="iniciaSesion">Inicia Sesión</div></a>
+        <div id="separadorNav"></div>
+        <a href="registrate.html"><div class="registrate">Registrate</div></a>
+    </nav>
+</body>
+</html>
